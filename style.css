@@ -1,5 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Inter:wght@400;500;700&family=Montserrat&family=Open+Sans:wght@300;500;600;700&family=Patrick+Hand&family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500&family=Work+Sans:wght@200;300;500;600;700;800&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(/assets/world\ map\ [1920x1080].jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #464646;
+}
+.container {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25%;
+  text-align: center;
+}
+.search-heading {
+  font-style: italic;
+  color: #e6e6e6;
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.input-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-box {
+  height: 30px;
+  border-radius: 12px;
+  width: 75%;
+  background-color: #e6e6e6;
+  border: none;
+  outline: none;
+  color: #2c2b2b;
+  padding: 10px;
+}
+.input-btn {
+  margin-left: -26px;
+  border-radius: 12px;
+  background-color: none;
+  border: none;
+}
+.input-btn img {
+  width: 20px;
+  height: 20px;
 }
