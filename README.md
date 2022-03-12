@@ -8,7 +8,7 @@ This app created by [Ahmed Khilla](https://github.com/ahmedkhilla)
 
 ## What is this app?
 
-You can check details about any country in the world from this app.
+You can check details about any country in the world from this app by adding the full name of the country in the search box.
 
 ## What did I use to create this app?
 
